@@ -1,7 +1,23 @@
+
+
+
 .mainCardContainer{
     width: 250px;
     height: 180px;
     border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 986px){
+    .mainCardContainer{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .mainCardContainer{
+        width: 100%;
+    }
 }
 
 .instagram{
@@ -46,13 +62,13 @@
 
 .mainCardStats{
     font-size: 50px; 
-    font-weight: 700; 
+    font-weight: 400; 
     color: hsl(230, 17%, 14%)
 }
 
 .mainCardStats-dark{
     font-size: 50px; 
-    font-weight: 700; 
+    font-weight: 400; 
     color: hsl(0, 0%, 100%)
 }
 

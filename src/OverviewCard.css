@@ -1,3 +1,5 @@
+
+
 .overviewCardContainer{
     height: 107px;
     width: 252px;
@@ -32,6 +34,7 @@
     padding-inline: 10px;
 }
 
+
 .statNameIcon, .statTrend{
     display: flex;
     align-items: center;
@@ -41,4 +44,30 @@
 
 .statNameIcon > p{
     color: hsl(228, 34%, 66%);
+}
+
+@media only screen and (max-width: 986px){
+    .overviewCardContainer{
+        width: 45%;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .overviewCardContainer{
+        width: 90%;
+    }
+
+    .statNameIcon, .statTrend{
+        justify-content: space-around;
+    }
+
+    .overviewCard, .overviewCard-dark{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        padding-inline: 0px;
+
+    }
 }

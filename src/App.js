@@ -20,8 +20,8 @@ function App() {
 			<div className = "pseudoBody">
 				<div className = "container">
 					<div className="header">
-						<div>
-							<h2 style={{fontWeight:700}} className = {Theme ? "socialMediaHeader" : "socialMediaHeader-dark	"}>Social Media Dashboard</h2>
+						<div className = {Theme ? "socialMediaHeader" : "socialMediaHeader-dark	"}>
+							<h2>Social Media Dashboard</h2>
 							<p className = "totalFollowersText">Total followers: 23004</p>
 						</div>
 						<div className = "themeToggler">

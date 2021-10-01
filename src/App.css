@@ -66,18 +66,23 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	margin-bottom: 30px;
 }
 
-
 .socialMediaHeader{
+	font-weight: 700;
 	color: hsl(230, 17%, 14%);
 }
 
 .socialMediaHeader-dark{
+	font-weight: 700;
 	color: hsl(0, 0%, 100%);
 }
+
+
+
+
 
 .totalFollowersText{font-size: 14px; font-weight: 400; color:hsl(228, 12%, 44%)}
 
@@ -101,6 +106,7 @@
 	padding-top: 10px;
 	justify-content: space-evenly;
 	margin-top: 25px;
+	gap: 15px;
 	flex: 1;
 }
 
@@ -114,10 +120,6 @@
 	color:white;
 }
 
-
-
-
-
 .overviewCards{
 	display: flex;
 	justify-content: space-between;	
@@ -125,3 +127,59 @@
 	gap: 30px;
 }
 
+@media only screen and (max-width: 986px){
+	.overviewHeading > h2, .overviewHeading-dark > h2{
+		text-align: center;
+		font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 576px){
+
+	.header{
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.socialMediaHeader, .socialMediaHeader-dark{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		
+	}
+
+	.socialMediaHeader > h2, .socialMediaHeader-dark > h2{
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.overviewHeading > h2, .overviewHeading-dark > h2{
+		font-size: 24px;
+	}
+
+	.mainCards{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.themeToggler > p{
+		display: none;
+	}
+
+	.overviewCards{
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 350px){
+	.socialMediaHeader > h2, .socialMediaHeader-dark > h2{
+		font-size: 20px;
+	}
+
+	.overviewHeading > h2, .overviewHeading-dark > h2{
+		font-size: 20px;
+	}
+}
