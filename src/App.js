@@ -48,7 +48,7 @@ function App() {
 							<OverviewCard app = {"twitter"} stat = {117} statName = {"Retweets"} trend = {303} Theme = {Theme}/>
 							<OverviewCard app = {"twitter"} stat = {507} statName = {"Likes"} trend = {553} Theme = {Theme} />
 							<OverviewCard app = {"youtube"} stat = {107} statName = {"Likes"} trend = {-107} Theme = {Theme}/>
-							<OverviewCard app = {"Youtube"} stat = {1407} statName = {"Total Views"} trend = {-12} Theme = {Theme} />
+							<OverviewCard app = {"youtube"} stat = {1407} statName = {"Total Views"} trend = {-12} Theme = {Theme} />
 						</div>
 					</div>
 				</div>
