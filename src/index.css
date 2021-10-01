@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  /* overflow-y: scroll; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-family: 'Inter', sans-serif;
+  /* border: 10px solid blue; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

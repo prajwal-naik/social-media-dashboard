@@ -1,0 +1,127 @@
+.app{
+	background-color: white;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+
+.app-dark{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	background-color: hsl(230, 17%, 14%);
+}
+
+.appBackground{
+	background-color: hsl(225, 100%, 98%);
+	height: 30vh;
+	width: 100%;
+}
+
+.appBackgroundRem{
+	background-color: white;
+	width: 100%;
+	height: 70vh;
+	position: absolute;
+	bottom: 0;
+}
+
+
+.appBackground-dark{
+	background-color: hsl(232, 19%, 15%);
+	height: 210px;
+	width: 100%;
+}
+
+.pseudoBody{
+	position:absolute;
+	top: 0;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+}
+
+.container{
+	height: 100vh;
+	width: 80%;
+	flex: 0.9;
+	display: flex;
+	flex-direction: column;
+	padding-block: 20px;
+	justify-content: space-around;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+
+.socialMediaHeader{
+	color: hsl(230, 17%, 14%);
+}
+
+.socialMediaHeader-dark{
+	color: hsl(0, 0%, 100%);
+}
+
+.totalFollowersText{font-size: 14px; font-weight: 400; color:hsl(228, 12%, 44%)}
+
+.themeToggler{
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	flex-wrap: wrap;
+	font-weight: 700; color:hsl(228, 12%, 44%)}
+
+.mainCards{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;  	
+}
+
+.overview{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	justify-content: space-evenly;
+	margin-top: 25px;
+	flex: 1;
+}
+
+.overviewHeading{
+	margin: 0;
+	color:hsl(228, 12%, 44%);
+}
+
+.overviewHeading-dark{
+	margin: 0;
+	color:white;
+}
+
+
+
+
+
+.overviewCards{
+	display: flex;
+	justify-content: space-between;	
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
